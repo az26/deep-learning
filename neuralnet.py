@@ -8,7 +8,7 @@ unit_shape = 4
 input_shape = 2
 output_shape = 2
 e = 0.2
-ep = 10000
+ep = 30000
 
 input_wt = np.random.rand(unit_shape, input_shape)
 output_wt = np.random.rand(output_shape , unit_shape)
